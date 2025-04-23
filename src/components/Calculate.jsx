@@ -4,6 +4,7 @@ import axios from 'axios';
 const Calculate = ({ level, battlePass, purchasedPacks, setPurchasedPacks, setResult }) => {
 
   const handleCalculate = async () => {
+    console.log("clicked")
     try {
       // We send a POST request using axios with the required body
       const response = await axios.post('https://apex-heirloom-tracker-backend.onrender.com/api/calculate', {
@@ -12,7 +13,7 @@ const Calculate = ({ level, battlePass, purchasedPacks, setPurchasedPacks, setRe
         purchasedPacks: Number(purchasedPacks)
       });
 
-      // Save the response in result state to pass to <Progress />
+     console.log("Data send to server", response.data);
       setResult(response.data);
 
     } catch (error) {
