@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="min-h-screen bg-black flex justify-center items-center">
       <div className="w-full max-w-2xl bg-zinc-900 text-white rounded-xl shadow-lg p-6 flex flex-col gap-6">
+        <h1 className="text-center text-4xl font-semibold">Apex Tracker</h1>
         <AccountLevel level={level} setLevel={setLevel} />
         <BattlePassTracker
           battlePass={battlePass}

@@ -28,7 +28,7 @@ const Progress = ({ result }) => {
           style={{ width: `${result.progressPercent}%` }}
         ></div>
       </div>
-      <p className="italic">You're almost halfway to the Heirloom</p>
+      <p className="italic">{result.message}</p>
     </div>
   );
 };

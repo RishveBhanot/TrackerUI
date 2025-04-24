@@ -31,6 +31,20 @@ const BattlePassTracker = ({battlePass, setBattlePass}) => {
             <option value="s8">S8</option>
             <option value="s9">S9</option>
             <option value="s10">S10</option>
+            <option value="s11">S11</option>
+            <option value="s12">S12</option> 
+            <option value="s13">S13</option>
+            <option value="s14">S14</option>
+            <option value="s15">S15</option>
+            <option value="s16">S16</option>
+            <option value="s17">S17</option>
+            <option value="s18">S18</option>
+            <option value="s19">S19</option>
+            <option value="s20">S20</option>
+            <option value="s21">S21</option>
+            <option value="s22">S22</option> 
+            <option value="s23">S23</option>
+            <option value="s24">S24</option>
           </select>
         </div>
 
